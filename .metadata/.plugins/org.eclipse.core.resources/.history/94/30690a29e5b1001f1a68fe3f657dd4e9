@@ -1,0 +1,13 @@
+import javax.swing.*;
+public class Lab201 {
+
+	public static void main(String[] args) {
+		final int BUFFET = 299;
+		
+		int numberofCustomer = Integer.parseInt(JOptionPane.showInputDialog(null,"How many customer per bill"));
+		double totalPrice = BUFFET * numberofCustomer;
+	
+		System.out.printf("Total price is %,.2f baht",totalPrice);
+	}
+
+}
